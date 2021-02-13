@@ -7,7 +7,7 @@ set(CXX_FLAGS "-Wall")
 
 find_package(OpenCV REQUIRED)
 
-set(EXECUTABLE app)
+set(EXECUTABLE geom)
 add_executable(${EXECUTABLE} main.cpp)
 
 target_link_libraries(${EXECUTABLE} PRIVATE ${OpenCV_LIBS})
